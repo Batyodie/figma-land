@@ -1,0 +1,56 @@
+/* project basis styles */
+@import './project/styles/reset.css';
+@import './project/styles/fonts.css';
+@import './project/styles/vars.css';
+@import './project/styles/break-points.css';
+
+/* project common blocks */
+
+/* page__body */
+@import './project/common.blocks/page/__body.css';
+
+/* header */
+@import './project/common.blocks/header/header.css';
+@import './project/common.blocks/header/__wrapper/header__wrapper.css';
+@import './project/common.blocks/header/__buttons-wrapper/header__buttons-wrapper.css';
+@import './project/common.blocks/header/__logo/header__logo.css';
+
+/* logo */
+@import 'project/common.blocks/logo/logo.css';
+@import 'project/common.blocks/logo/__image/logo__image.css';
+
+/* menu */
+@import './project/common.blocks/menu/menu.css';
+
+/* btn */
+@import './project/common.blocks/btn/btn.css';
+@import 'project/common.blocks/btn/_hover/btn_hover_d.css';
+@import './project/common.blocks/btn/_size/btn_size_d.css';
+@import './project/common.blocks/btn/_theme/btn_theme.css';
+@import 'project/common.blocks/btn/_active/btn_active_d.css';
+@import './project/common.blocks/btn/__body/btn__body.css';
+@import 'project/common.blocks/btn/_fonts/btn__body_fonts_d.css';
+
+/* burger-btn */
+@import 'project/common-devises.blocks/mobile.blocks/burger-btn/burger-btn.css';
+
+/* project common devises blocks */
+@import 'project/common-devises.blocks/btn/_theme/.btn_theme_transparent.css';
+@import 'project/common-devises.blocks/btn/_hover/btn_hover_transparent.css';
+
+/* @import "./project/desktop.blocks"; */
+
+/* project mobile blocks */
+
+/* mobile btn */
+@import 'project/common-devises.blocks/mobile.blocks/btn/btn_size_small.css';
+
+/* mobile menu */
+@import 'project/common-devises.blocks/mobile.blocks/menu/menu.css';
+body {
+  font-family: var(--paragraphe);
+  font-size: 19px;
+  line-height: 30px;
+  font-style: normal;
+  color: var(--basisText);
+}
